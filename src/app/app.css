@@ -1,0 +1,29 @@
+/* app.css */
+
+main {
+  max-width: 900px;         /* Limit max width for readability */
+  margin: 2rem auto;        /* Center horizontally with vertical spacing */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;                /* Space between header and notes list */
+  background-color: #fff;   /* White background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  border-radius: 8px;       /* Rounded corners */
+  min-height: 80vh;         /* Minimum height for main content */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.title {
+  display: block;
+  background-color: #4b0082; /* Dark purple */
+  padding: 1.5rem 2.5rem;
+  box-shadow: 0 2px 6px rgba(75, 0, 130, 0.5);
+  user-select: none;
+  border-radius: 8px 8px 0px 0px;  
+  color: #ffff;
+}
+
+.notes {
+  padding: 0 2rem;
+}

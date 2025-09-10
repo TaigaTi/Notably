@@ -1,0 +1,6 @@
+@for (note of notes; track $index) {
+  <button class="note-item" (click)="show(note.title)">
+    <h3>{{ note.title }}</h3>
+    <p>{{ note.text }}</p>
+  </button>
+}

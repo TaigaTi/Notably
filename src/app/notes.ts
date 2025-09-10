@@ -1,0 +1,17 @@
+export interface Note {
+  id: number;
+  title: string;
+  text: string;
+}
+export const NOTES: Note[] = [
+  {
+    id: 1,
+    title: 'First Note',
+    text: 'This is the content of the first note.',
+  },
+  {
+    id: 2,
+    title: 'Second Note',
+    text: 'This is the content of the second note.',
+  },
+];
