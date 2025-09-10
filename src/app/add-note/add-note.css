@@ -1,0 +1,5 @@
+.new-note-form {
+    padding: 1rem 0rem;
+    display: flex;
+    gap: 1rem;
+}

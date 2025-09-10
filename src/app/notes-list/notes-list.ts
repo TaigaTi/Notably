@@ -11,6 +11,6 @@ export class NotesList {
   notes = NOTES;
 
   show(title: string) {
-    window.alert(title);
+    alert(title);
   }
 }
