@@ -1,0 +1,59 @@
+/* Note container styles */
+#note-container {
+  max-width: 600px;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container {
+  padding: 3rem 6rem;
+}
+
+/* Title styling */
+.note-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* ID styling */
+.note-id {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* Text styling */
+.note-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Back button styling */
+nav button {
+  margin-top: 16px;
+  padding: 10px 45px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #2980b9;
+}

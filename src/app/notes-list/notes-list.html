@@ -1,6 +1,6 @@
 <div class="container">
   @for (note of notes; track $index) {
-    <button class="note-item" (click)="show(note.title)">
+    <button class="note-item" [routerLink]="['/note', note.id]">
       <h3>{{ note.title }}</h3>
       <p>{{ note.text }}</p>
     </button>
